@@ -1,7 +1,7 @@
 # book-qa-chatbot
-# 📚 Book Q&A Chatbot (RAG + GPT4All)
+# Book Q&A Chatbot (RAG + GPT4All)
 
-## 🚀 Project Overview
+#Project Overview
 This project allows users to:
 - Upload a PDF book
 - Split the text into chunks
@@ -11,14 +11,14 @@ This project allows users to:
 - Answer questions using GPT4All (Mistral 7B)
 - Stream responses with typing effect
 
-## 🛠️ Tech Stack
-- 🐍 Python
-- 🦜 LangChain
-- 🤖 GPT4All
-- 🧠 HuggingFace Embeddings
-- 📂 FAISS Vector Database
+#Tech Stack
+- Python
+- LangChain
+- GPT4All
+- HuggingFace Embeddings
+- FAISS Vector Database
 
-## ✨ Features
+## Features
 - PDF Upload + Loader
 - Text Splitting
 - Embeddings Generation
