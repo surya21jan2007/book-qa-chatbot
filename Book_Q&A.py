@@ -1,7 +1,7 @@
 # 1. PDF Upload + Loader
 from langchain_community.document_loaders import PyPDFLoader
 
-pdf_path = "Python Crash Course.pdf"   # PDF file path
+pdf_path = "Python Crash Course.pdf"
 loader = PyPDFLoader(pdf_path)
 docs = loader.load()
 #print("PDF Loaded")
@@ -40,7 +40,7 @@ from gpt4all import GPT4All
 llm = GPT4All("mistral-7b-instruct-v0.1.Q4_0.gguf")
 #print("LLM Loaded")
 
-# 7. Manual RAG (Retriever + LLM, no chains)
+# 7. Manual RAG (Retriever + LLM)
 query = input("Ask your question: ")
 docs = retriever.invoke(query)
 
@@ -56,7 +56,7 @@ answer = llm.generate(final_prompt)
 # 8. Print Answer
 #print("\nFinal Answer:\n", answer)
 
-# 9. Streaming Output (Typing Effect)
+# 9. Streaming Output
 import time
 print("\nStreaming Answer:\n")
 for char in answer:
