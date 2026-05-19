@@ -5,4 +5,3 @@ langchain-huggingface
 gpt4all
 faiss-cpu
 sentence-transformers
-python-dotenv   # optional
