@@ -1,4 +1,3 @@
-# book-qa-chatbot
 # Book Q&A Chatbot (RAG + GPT4All)
 
 #Project Overview
