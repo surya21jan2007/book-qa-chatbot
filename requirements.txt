@@ -1,10 +1,7 @@
+requirements.txt
+-> Packages list.
 
----
 
-### 3️⃣ **requirements.txt**
-👉 Packages list.
-
-```text
 langchain
 langchain-community
 langchain-text-splitters
